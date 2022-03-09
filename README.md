@@ -3,14 +3,18 @@
 `npm i`<br/>
 `npm start`<br/>
 
-//A page will be running at localhost:3000
+~Pages
+1.Home
++--> we can list out all contacts related to logined user
++--user can delete their contact by hover on list and click on bin/delete button
++--user can add a contact by clicking plus button
+2.Auth
++-- Dynamic in nature based on routes
++--based on authention type the page change from login to register or vice versa
 
-//Home
-You will be redirected to the login page at first because no user loginned
+~Auth Flow >> In this application the auth is done by using jwt in server side and to save jwt
+token the Cookies used which save AUTH_TOKEN field as the token we recive from server during login.
 
-//Register
-Provide email and password and hit register btn
-
-//Login Page
-
-Provide email and password and hit login btn
+~Tracking is user logged in or not
+When we refershing or redirecting to home page we just checking is AUTH_TOKEN is there
+inside the cookies if not redirect the user on /auth/login
