@@ -1,7 +1,7 @@
 `git clone https://github.com/Ammyy9908/contact_manager.git`<br/>
-`cd /contact_manager`
-`npm i`
-`npm start`
+`cd /contact_manager`<br/>
+`npm i`<br/>
+`npm start`<br/>
 
 //A page will be running at localhost:3000
 
