@@ -74,7 +74,7 @@ function Auth({ type }) {
             setValue={setPassword}
           />
           <span className="auth-options">
-            <a href="#">Forgot Password?</a>
+            <a href="#forgot">Forgot Password?</a>
             <input
               type="submit"
               value={type === "login" ? "Login" : "Register"}
@@ -82,7 +82,7 @@ function Auth({ type }) {
           </span>
         </form>
         <div className="auth-switch">
-          <Link to={`/auth/${type == "login" ? "register" : "login"}`}>
+          <Link to={`/auth/${type === "login" ? "register" : "login"}`}>
             {type === "login"
               ? "Not have account yet?Register"
               : "Already have account?Login"}
