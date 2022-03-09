@@ -66,8 +66,9 @@ function Home({ user, contacts, deleteContact, popup, setPopUp }) {
           <div className="contact-table">
             <div className="table-header">
               <span>Name</span>
-              <span>Email</span>
+
               <span>Phone</span>
+              <span>Email</span>
               <span></span>
             </div>
             <div className="contact-lists">
