@@ -1,7 +1,7 @@
-git clone https://github.com/Ammyy9908/contact_manager.git
-cd /contact_manager
-npm i
-npm start
+`shell git clone https://github.com/Ammyy9908/contact_manager.git`
+`shell cd /contact_manager`
+`shell npm i`
+`shell npm start`
 
 //A page will be running at localhost:3000
 
