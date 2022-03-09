@@ -60,7 +60,7 @@ function Home({ user, contacts, deleteContact, popup, setPopUp }) {
           <div className="empty_contact_box">
             <img src={empty_illustration} alt="" />
             <p>No Contact Yet!</p>
-            <p>Create a one by clicng below plus button</p>
+            <p>Create a one by clicking below plus button</p>
           </div>
         ) : (
           <div className="contact-table">
